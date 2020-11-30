@@ -2,3 +2,7 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+form {
+    font-family : inherit;
+    font-size: 1em;
+}
