@@ -1,8 +1,14 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: #222034;
+    color: white;
 }
 form {
+    font-family : inherit;
+    font-size: 1em;
+}
+input{
     font-family : inherit;
     font-size: 1em;
 }

@@ -39,8 +39,12 @@ def index():
         if file and allowed_file(file.filename):
             filename = werkzeug.utils.secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            #os.system('lp -d HPLaserJ {0}')
-            return "done"
+            filepath = UPLOAD_FOLDER + "/" + filename
+            os.system(f"lp -d DeskJet_1110\
+                     {filepath}")
+            #flask.flash(f"File {filename} printed")
+            os.system(f"rm {filepath}")
+            return flask.render_template("printed.html")
         
         return flask.render_template("index.html")
 
