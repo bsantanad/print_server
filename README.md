@@ -2,7 +2,7 @@
 
 ![alt text](img_print.png)
 
-Print server is a small project that makes your Raspberry Pi into a printing
+Print server is a small project that transforms your Raspberry Pi into a printing
 server 
 
 ## Installation
