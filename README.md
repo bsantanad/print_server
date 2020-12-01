@@ -1,5 +1,7 @@
 # Print Server (Raspberry Pi) 
 
+![alt text](img_print.png)
+
 Print server is a small project that makes your Raspberry Pi into a printing
 server 
 
