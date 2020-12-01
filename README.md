@@ -27,7 +27,7 @@ from there)
 **NOTE**: Unless you and I have the same printer (pretty unlikely), you must 
 change the code in print server. In line 47 you must write down your printer.
 Yeah I know we are all lazy here, but come on it takes you like 1 min and then
-you are set to go and then you are set to go
+you are good and set to go.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to 
