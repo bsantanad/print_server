@@ -25,7 +25,7 @@ And then access to your local ip address from a web browser. (Kind of intuitive
 from there)
 
 **NOTE**: Unless you and I have the same printer (pretty unlikely), you must 
-change the code in print server. In line 47 you must write down your printer.
+change the code in print_server.py, in line 47 you must write down your printer.
 Yeah I know we are all lazy here, but come on it takes you like 1 min and then
 you are good and set to go.
 
